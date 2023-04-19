@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+}
+
+#main-login {
+  height: 100vh;
+}
+
+#title-login {
+  margin-top: 0px;
+}
+
+#main-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#section-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 10px 10px 10px grey;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-form {
+  margin-bottom: 20px;
+}
+
+#button-sign-in {
+  align-self: center;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+}
+
+.cta-login-line {
+  display: flex;
+  align-items: center;
+}
+
+.link-redirect {
+  margin-left: 5px;
+}
