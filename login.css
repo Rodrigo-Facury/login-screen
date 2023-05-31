@@ -20,7 +20,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: aliceblue;
+  background-color: #add8e6;
   padding: 30px;
   border-radius: 10px;
   box-shadow: 10px 10px 10px grey;
@@ -37,6 +37,14 @@ body {
 
 #button-sign-in {
   align-self: center;
+  background-color: #638C99;
+  border: none;
+  padding: 8px;
+  border-radius: 10px;
+  font-weight: 900;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .cta-container {
@@ -52,4 +60,5 @@ body {
 
 .link-redirect {
   margin-left: 5px;
+  text-decoration: none;
 }
